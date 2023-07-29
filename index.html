@@ -47,14 +47,22 @@
         <div class="feedback">
           <ul class="adventures-list">
             <li class="adventures-list-item">
-              <div class="adventures-card-top">
-                <!-- <img 
-                  src="./img/adventures/image.png"
-                  alt=""
-                  width="56"
-                  height="56"
-                /> -->
-              </div>
+              <picture>
+                <source
+                  srcset="
+                    ./img/adventures/john_tablet@1x.png 1x,
+                    ./img/adventures/john_tablet@2x.png 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./img/adventures/john-mob@1x.png 1x,
+                    ./img/adventures/john-mob@2x.png 2x
+                  "
+                />
+                <img src="./img/adventures/image-mob@1x.png" alt="John Wax" />
+              </picture>
               <h4 class="adventures-list-item-title">John Wax</h4>
               <p class="adventures-list-item-text">
                 I rented the Lagoon 620 with my family for a week-long vacation
@@ -64,14 +72,25 @@
               </p>
             </li>
             <li class="adventures-list-item">
-              <div class="adventures-card-top">
-                <img
-                  src="./img/adventures/image-1.png"
-                  alt=""
-                  width="56"
-                  height="56"
+              <picture>
+                <source
+                  srcset="
+                    ./img/adventures/victoria_tablet@1x.png 1x,
+                    ./img/adventures/victoria_tablet@2x.png 2x
+                  "
+                  media="(min-width: 768px)"
                 />
-              </div>
+                <source
+                  srcset="
+                    ./img/adventures/victoria-mob@1x.png 1x,
+                    ./img/adventures/victoria-mob@2x.png 2x
+                  "
+                />
+                <img
+                  src="./img/adventures/image-mob@1x.png"
+                  alt="Victoria Romashenko"
+                />
+              </picture>
               <h4 class="adventures-list-item-title">Victoria Romashenko</h4>
               <p class="adventures-list-item-text">
                 The Sunseeker Manhattan 66 was the perfect choice for our
@@ -81,14 +100,25 @@
               </p>
             </li>
             <li class="adventures-list-item">
-              <div class="adventures-card-top">
-                <img
-                  src="./img/adventures/image-2.png"
-                  alt=""
-                  width="56"
-                  height="56"
+              <picture>
+                <source
+                  srcset="
+                    ./img/adventures/ihor_tablet@1x.png 1x,
+                    ./img/adventures/ihor_tablet@2x.png 2x
+                  "
+                  media="(min-width: 768px)"
                 />
-              </div>
+                <source
+                  srcset="
+                    ./img/adventures/ihor-mob@1x.png 1x,
+                    ./img/adventures/ihor-mob@2x.png 2x
+                  "
+                />
+                <img
+                  src="./img/adventures/image-mob@1x.png"
+                  alt="Ihor Trachuk"
+                />
+              </picture>
               <h4 class="adventures-list-item-title">Ihor Trachuk</h4>
               <p class="adventures-list-item-text">
                 The Azimut 80 was the most luxurious yacht I've ever been on.
