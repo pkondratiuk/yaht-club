@@ -30,15 +30,94 @@
     <main>
       <!-- Service -->
       <section class="service" id="service">
+        <!-- Diving block -->
+
         <div class="diving-container">
           <picture class="diving-picture">
             <source
-              srcset="./img/service/img diving_mobile@1x.png 1x, ./img/service/img diving_mobile@2x.png 2x"
-              media="(min-width: 375px)"
+              srcset="
+                ./img/service/diving_desktop@1x.png 1x,
+                ./img/service/diving_desktop@1x.png 2x
+              "
+              media="(min-width: 1280px)"
             />
-            <img src="./img/service/img diving_mobile@1x.png" alt="Diving" />
+            <source
+              srcset="
+                ./img/service/diving_tablet@1x.png 1x,
+                ./img/service/diving_tablet@2x.png
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+                ./img/service/diving_mobile@1x.png 1x,
+                ./img/service/diving_mobile@2x.png 2x
+              "
+              media="(max-width: 767px)"
+            />
+            <img src="./img/service/diving_mobile@1x.png" alt="Diving" />
           </picture>
           <button class="diving-button" type="button">Diving</button>
+        </div>
+
+        <!-- Fishing block -->
+
+        <div class="fishing-container fishing">
+          <picture class="fishing-picture">
+            <source
+              srcset="
+                ./img/service/fishing_desktop@1x.png 1x,
+                ./img/service/fishing_desktop@1x.png 2x
+              "
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="
+                ./img/service/fishing_tablet@1x.png 1x,
+                ./img/service/fishing_tablet@2x.png
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+                ./img/service/fishing_mobile@1x.png 1x,
+                ./img/service/fishing_mobile@2x.png 2x
+              "
+              media="(max-width: 767px)"
+            />
+            <img src="./img/service/fishing_mobile@1x.png" alt="Diving" />
+          </picture>
+          <button class="fishing-button" type="button">Fishing</button>
+        </div>
+
+        <!--sunbathing  -->
+
+        <div class="sunbathing-container">
+          <picture class="sunbathing-picture">
+            <source
+              srcset="
+                ./img/service/sunbathing_desktop@1x.png 1x,
+                ./img/service/sunbathing_desktop@1x.png 2x
+              "
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="
+                ./img/service/sunbathing_tablet@1x.png 1x,
+                ./img/service/sunbathing_tablet@2x.png
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+                ./img/service/sunbathing_mobile@1x.png 1x,
+                ./img/service/sunbathing_mobile@2x.png 2x
+              "
+              media="(max-width: 767px)"
+            />
+            <img src="./img/service/sunbathing_mobile@1x.png" alt="Diving" />
+          </picture>
+          <button class="sunbathing-button" type="button">Sunbathing</button>
         </div>
       </section>
 
